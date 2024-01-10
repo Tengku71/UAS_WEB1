@@ -1,0 +1,232 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+.header{
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  width: 100%;
+  height: 80px;
+  background-color: #2D3250;
+}
+.logo-header{
+  padding-left: 7%;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+.account{
+  display: flex;
+  align-items: center;
+  padding-right: 3%;
+}
+.account p{
+  padding-left: 5%;
+  font-size: 25px;
+  color: white;
+}
+.container-account{
+  border: solid 2px white;
+  border-radius: 50%;
+  padding: 5px;
+}
+.account img{
+  width: 25px;
+  height: 25px;  
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  height: 500px;
+}
+.side-menu{
+  height: 100%;
+  width: 20%;
+  background-color: #fff;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  margin-top: 6%;
+}
+.right-side{
+  background-color: #F3F8FF;
+  height: 100%;
+  width: 80%;
+  margin-top: 6%;
+  margin-left: 20%;
+}
+.dashboard-menu{
+  margin-top: 25%;
+}
+.dashboard-menu a{
+  font-size: 20px;
+  text-decoration: none;
+  color: #2D3250;
+}
+.dashboard-menu a:hover{
+  background-color: #2D3250;
+  padding: 20px 30px;
+  border-radius: 12px;
+  color: white;
+}
+.dokter-menu{
+  margin-top: 25%;
+}
+.dokter-menu a{
+  font-size: 20px;
+  text-decoration: none;
+  color: #2D3250;
+}
+.dokter-menu a:hover{
+  background-color: #2D3250;
+  padding: 20px 30px;
+  border-radius: 12px;
+  color: white;
+}
+.perawat-menu{
+  margin-top: 25%;
+}
+.perawat-menu a{
+  font-size: 20px;
+  text-decoration: none;
+  color: #2D3250;
+}
+.perawat-menu a:hover{
+  background-color: #2D3250;
+  padding: 20px 30px;
+  border-radius: 12px;
+  color: white;
+}
+.pasien-menu{
+  margin-top: 25%;
+}
+.pasien-menu a{
+  font-size: 20px;
+  background-color: #2D3250;
+  padding: 20px 30px;
+  border-radius: 12px;
+  color: white;
+  text-decoration: none;
+}
+.pasien-menu a:hover{
+  background-color: white;
+  color: #2D3250;
+}
+.kamar-menu{
+  margin-top: 25%;
+}
+.kamar-menu a{
+  font-size: 20px;
+  text-decoration: none;
+  color: #2D3250;
+}
+.kamar-menu a:hover{
+  background-color: #2D3250;
+  padding: 20px 30px;
+  border-radius: 12px;
+  color: white;
+}
+/* Tabel Pasien */
+.judul{
+  padding: 30px 0 0 30px;
+}
+tr, td, th{
+  border: solid 1px;
+  align-items: center;
+  padding: 5px 10px 10px 5px;
+}
+td{
+  text-align: center;
+}
+table{
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 18px;
+}
+.tabel{
+  display: flex;
+  align-content: center;
+  margin-top: 30px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.tabel-pasien{
+  width: 100%;
+  padding: 0 10px;
+  height: 300px;
+  overflow: auto;
+  
+}
+.footer-tabel{
+  position: relative;
+  background-color: rgb(130, 231, 189);;
+  width: 100%;
+  height: 40px;
+  border-radius: 0 0 15px 15px;
+  bottom: 50px;
+}
+td:nth-child(7){
+  width: 120px;
+  height: 100%;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+}
+.edit-btn{
+  align-items: center;
+  border-radius: 6px;
+  padding: 2px 10px;
+  color: white;
+  text-decoration: none;
+  background-color: #424769;
+}
+.hapus-btn{
+  align-items: center;
+  border-radius: 6px;
+  padding: 2px 10px;
+  margin-left: 5px;
+  color: white;
+  text-decoration: none;
+  background-color: #424769;
+}
+.btn-tambah-pasien{
+  align-items: center;
+  border-radius: 6px;
+  padding: 10px 10px;
+  margin-left: 10px;
+  color: white;
+  text-decoration: none;
+  background-color: #424769;
+}
+.pencarian{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 30px;
+}
+#search{
+  margin-right: 20px;
+  height: 20px;
+  border: 1px solid;
+  padding-left: 10px;
+  border-radius: 20px;
+}
+.pencarian img{
+  cursor: pointer;
+}
+.btn-refresh{
+  margin-right: 10px;
+  border-radius: 6px;
+  padding: 5px 10px;
+  color: white;
+  border: none;
+  background-color: #424769;
+  cursor: pointer;
+}
